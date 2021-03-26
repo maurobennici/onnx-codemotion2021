@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONNX", "ONNX.csproj", "{F063B686-13A1-4F56-810C-E971D3B50D21}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MLNET", "..\MLNET\MLNET.csproj", "{6E6F3682-7562-4854-A916-26505E5EDAFA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONNXML.Model", "..\ONNXML.Model\ONNXML.Model.csproj", "{6CC4DF49-A7A7-4011-A1D9-D22C7CEF4942}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ONNXML.ConsoleApp", "..\ONNXML.ConsoleApp\ONNXML.ConsoleApp.csproj", "{1B8DA8F6-D291-4535-804D-D68FCD4BEB94}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F063B686-13A1-4F56-810C-E971D3B50D21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F063B686-13A1-4F56-810C-E971D3B50D21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F063B686-13A1-4F56-810C-E971D3B50D21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F063B686-13A1-4F56-810C-E971D3B50D21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E6F3682-7562-4854-A916-26505E5EDAFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E6F3682-7562-4854-A916-26505E5EDAFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E6F3682-7562-4854-A916-26505E5EDAFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E6F3682-7562-4854-A916-26505E5EDAFA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CC4DF49-A7A7-4011-A1D9-D22C7CEF4942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CC4DF49-A7A7-4011-A1D9-D22C7CEF4942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CC4DF49-A7A7-4011-A1D9-D22C7CEF4942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CC4DF49-A7A7-4011-A1D9-D22C7CEF4942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B8DA8F6-D291-4535-804D-D68FCD4BEB94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B8DA8F6-D291-4535-804D-D68FCD4BEB94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B8DA8F6-D291-4535-804D-D68FCD4BEB94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B8DA8F6-D291-4535-804D-D68FCD4BEB94}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6845C3C-ADD8-4B62-A01D-31DC7E0DF0AA}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = PrefixedHierarchical
+		$0.TextStylePolicy = $4
+		$2.inheritsSet = null
+		$2.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $3
+		$3.scope = text/x-csharp
+		$4.FileWidth = 80
+		$4.TabsToSpaces = True
+		$4.scope = text/plain
+		$0.StandardHeader = $5
+		$0.VersionControlPolicy = $6
+	EndGlobalSection
+EndGlobal
